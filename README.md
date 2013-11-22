@@ -15,6 +15,7 @@ Design & Development quickstart with Foundation + Compass + Jekyll.
 
   * [Download this starter compass project and unzip it](https://github.com/29thdrive/29th-drive-quickstart/archive/master.zip)
   * Run `bower install` to install the latest version of Foundation
+  * __Important__ don't alter the files in the `bower_components` folder. These files will get updated when Foundation gets updated.
   
 Then when you're working on your project, just run the following command:
 
