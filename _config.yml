@@ -1,3 +1,8 @@
-name: 29th Drive Quickstart
-markdown: redcarpet
-pygments: true
+# Jekyll Configuration
+
+name: 			 29th Drive Quickstart
+markdown: 	 redcarpet
+pygments: 	 true
+source:			 _build
+destination: _deploy
+exclude:		 ['bower_components', 'scss', '.gitignore', '_config.yml', 'bower.json', 'config.rb', 'README.md']
