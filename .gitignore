@@ -1,0 +1,23 @@
+# Jekyll generated files
+_site
+
+# From Foundation
+/bower_components/*
+/.sass-cache/*
+*.DS_Store
+/stylesheets/*
+
+# OS X
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Code editor/IDE ignores
+*.sublime-project
+*.sublime-workspace
