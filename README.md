@@ -1,6 +1,6 @@
-# Foundation Jekyll Quickstart by 29th Drive
+# Jekyll with Foundation (Compass) Quickstart by 29th Drive
 
-Design & Development quickstart with Foundation + Compass + Jekyll.
+Design & Development quickstart with Jekyll & Foundation + Compass.
 
 ## Requirements
 
@@ -37,19 +37,23 @@ Run the following command to build the site with Jekyll:
 jekyll build
 ```
 
-Run the following command to build the site, poll for changes, and serve it with Jekyll:
+Run the following command to build the site and serve it with Jekyll:
 
 ```bash
 jekyll serve
 ```
 
-Run the following command to
+Run the following command to continually poll for changes in the site and rebuild with Jekyll:
+
+```bash
+jekyll build --watch
+```
 
 ## Upgrading this Repo
 
 Run `bower install` to install the latest version of Foundation
 
-If you'd like to upgrade to a newer version of Foundation down the road just run:
+If you'd like to upgrade to a newer version of Foundation down the road, run:
 
 ```bash
 bower update
