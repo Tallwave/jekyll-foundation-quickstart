@@ -1,0 +1,15 @@
+<!-- Javacript includes come from the Bower folder to manage dependencies -->
+
+<!-- JQuery -->
+<script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+<!-- Fastclick -->
+<script src="{{ "/bower_components/fastclick/lib/fastclick.js" | prepend: site.baseurl }}"></script>
+<!-- Include all of Foundation's JS -->
+<script src="{{ "/bower_components/foundation/js/foundation.min.js" | prepend: site.baseurl }}"></script>
+<!-- Include our custom JS -->
+<script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
+
+<!-- Initialize Foundation -->
+<script>
+  $(document).foundation();
+</script>
