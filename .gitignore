@@ -2,14 +2,13 @@
 _deploy
 
 # From Foundation
-/bower_components/*
-/.sass-cache/*
-*.DS_Store
-/stylesheets/*
+bower_components/*
+.sass-cache/*
 
 # OS X
 .AppleDouble
 .LSOverride
+*.DS_Store
 
 # Icon must ends with two \r.
 Icon
