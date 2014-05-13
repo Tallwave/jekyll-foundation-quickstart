@@ -1,4 +1,4 @@
-# 29th Drive Quickstart
+# Foundation Jekyll Quickstart by 29th Drive
 
 Design & Development quickstart with Foundation + Compass + Jekyll.
 
