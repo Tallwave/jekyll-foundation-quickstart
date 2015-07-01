@@ -37,16 +37,16 @@ Run the following command to build the site with Jekyll:
 jekyll build
 ```
 
-Run the following command to build the site and serve it with Jekyll:
+Run the following command to build the site and serve it with Jekyll; changes will be watched and the site will automatically rebuild while being served:
 
 ```bash
 jekyll serve
 ```
 
-Run the following command to continually poll for changes in the site and rebuild with Jekyll:
+To use the legacy behavior where Jekyll serves, but doesn't watch for changes, run this way:
 
 ```bash
-jekyll build --watch
+jekyll build --no-watch
 ```
 
 ## Upgrading this Repo
