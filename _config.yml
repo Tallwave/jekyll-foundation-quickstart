@@ -5,11 +5,18 @@
 # Site Settings
 title: Jekyll Foundation Quickstart
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-host: "localhost"
+
 ## url: "http://yourdomain.com"
 
 # Build settings
 markdown: 	 kramdown
 permalink:   pretty
+source:      _build
 exclude:		 ['_build', '.bowerrc', '.gitignore', '_config.yml', 'bower.json', 'config.rb', 'README.md']
 destination: _deploy
+
+# Sass
+sass:
+  sass_dir: _scss
+  style: :expanded
+  line_numbers: true
