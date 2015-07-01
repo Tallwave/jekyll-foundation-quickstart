@@ -2,8 +2,10 @@
 _deploy
 
 # From Foundation
-bower_components/*
+#bower_components/*
 .sass-cache/*
+
+node_modules
 
 # OS X
 .AppleDouble
