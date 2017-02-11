@@ -1,5 +1,6 @@
 # Jekyll generated files
 _deploy
+_site
 
 # From Foundation
 bower_components/*
