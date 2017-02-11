@@ -5,6 +5,7 @@ _site
 # From Foundation
 bower_components/*
 .sass-cache/*
+node_modules/*
 
 # OS X
 .AppleDouble
